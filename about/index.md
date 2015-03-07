@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "about:chouquette"
+title: "About"
 ---
 
+<img class="rounded-picture" style="float: right" src="/img/avatar.jpg">
 A 27 years old French software engineer, located in Paris.
 
 For the past 7 years or so, I've been part of the [VideoLAN](https://www.videolan.org) community, and have contributed to VLC & related projects.
@@ -14,5 +15,10 @@ My latest contribution would be compiling VLC using Visual Studio, in order to b
 
 While my interests codewise are mostly revolving around C++ (which is why I hope to be able to provide some nice articles about that here), I also write code in C, go, C#, among others, and I really should look into rust & D.
 
-You can find me on irc (freenode; #videolan), twitter, mail, IRL in Paris or maybe at a conference, somewhere!
+You can contact me through:
+
+- mail hugo /AT/ beauzee.fr
+- irc (irc.freenode.org, #videolan)
+- twitter: @beauzeh
+- IRL in Paris or maybe at a conference, somewhere!
 
