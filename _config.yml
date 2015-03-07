@@ -1,5 +1,6 @@
 # Site settings
-title: Chouquette's blog
+title: Chouquette
+author: Hugo Beauzée-Luyssen
 header-img: img/banner.png
 email: hugo@beauzee.fr
 description: "Thoughts, rants, and articles from a VLC developer"
