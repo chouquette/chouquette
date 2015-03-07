@@ -1,32 +1,16 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site settings
+title: Chouquette's blog
+header-img: img/banner.png
+email: hugo@beauzee.fr
+description: "Thoughts, rants, and articles from a VLC developer"
+baseurl: ""
+url: "http://www.beauzee.fr"
+twitter_username: beauzeh
+github_username:  chouquette
 
-paginate: 5 # pagination based on number of posts
-paginate_path: "/page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
+# Build settings
 markdown: kramdown
-
-
-defaults:
-  -
-    scope:
-        path: ""
-    values:
-        title: Chouquette's blog
-
-description: "Cones & Templates"
-author:
-  name: Hugo Beauzée-Luyssen
-  email: hugo@beauzee.fr
-  github: chouquette
-  twitter: beauzeh
-  linkedin: beauzeh
-  bio:
-      "Thoughts, rant, and articles from a software engineer"
-  email_md5: a85112f5ec7d93095d49034cee7aecd1
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH:
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
