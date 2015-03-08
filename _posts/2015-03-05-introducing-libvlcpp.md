@@ -9,7 +9,7 @@ tags:
 
 You probably already know VLC. As you might know, and as j-b mentionned in his [talk during FOSDEM](http://video.fosdem.org/2015/devroom-open_media/vlc.mp4), «VLC doesn't exist».
 
-Indeed, VLC is basically a 100 lines wrapper around libvlc. This library is the entry point to another one, libvlccore, which is doing all the heavy lifting, coordinates modules with each other.
+Indeed, VLC is basically a 100 lines wrapper around libvlc. This library is the entry point to another one, libvlccore, which is doing all the heavy lifting by coordinating modules with each other.
 
 
 libvlc is a public API, and can be used by anyone wishing to add multimedia functionnalities to its application.
