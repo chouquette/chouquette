@@ -31,7 +31,7 @@ Before showing a quick sample, here's a quick summary of libvlcpp:
 * Automatic VLC objects ref-counting
 * Handles events with lambdas
 * Header only implementation
-* Full VLC 2.2 functionnalities set.
+* VLC 2.2 full feature parity
 * C++11
 
 Now for a quick example, which is included in the git as the "helloworld" project:
