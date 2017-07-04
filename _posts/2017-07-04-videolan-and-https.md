@@ -44,9 +44,9 @@ VideoLAN relies on [mirrors](https://get.videolan.org/vlc/2.2.6/win32/vlc-2.2.6-
 to allow us to handle the [bandwidth required](https://get.videolan.org/?mirrorstats) to distribute VLC. There is no way we could do that with our own infrastructure, based on donations only.
 Those mirrors are gracefully provided to us for free by some companies (and we are very grateful to them!), but we do not own the machines, nor are we in a position to make any kind of demands to them.
 
-Some people suggested that we use Cloudfare, but that is not an option, as they are US based, and must therefor comply with US laws, which has a different view on software pattents
+Some people suggested that we use Cloudfare, but that is not an option, as they are US based, and must therefore comply with US laws, which has a different view on software pattents
 than Europe. If we were to switch to Cloudfare, and they were required to stop hosting us, we'd have no way to provide VLC to our users, and no mirror infrastructure left. This is not an option.
-Oh and the hypothesis of having a mirror shutting down because of legal heat is not an hypothesis, it happened.
+Oh and the hypothesis of having a mirror shutting down because of legal heat is not an hypothesis, it already happened.
 
 But ok let's say we have all our mirrors switching to HTTPS. Actually quite a few of them already are (and we are, again, very grateful to them!), but we don't control what gets out of the mirror.
 
@@ -62,6 +62,8 @@ you can get a malicious file (but hey! It has a green locker!). This is not some
 This is why we chose to focus our security measures on the binaries being downloaded.
 
 All our binaries are signed with both GPG, and our Authenticode signature on Windows, our Gatekeeper signature on macOS.
+
+For those who are not familiar with Windows/macOS, Authenticode and Gatekeeper are *basically* the operating system provided way of checking the authenticity & sanity of a binary.
 
 From there, multiple configurations are possible:
 
