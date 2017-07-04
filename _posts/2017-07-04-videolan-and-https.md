@@ -83,7 +83,7 @@ This leaves us with those possibilities:
 basically warned that you are on your own.
 * The MITM attack tampers the binary, which leads to quite visible windows warning.
 * The MITM attack replaces the installer by an older VLC version (signed & untampered, but with known flaws). This is the most worrying one in my opinion. This is only valid at first install,
-as the installer will warn the user about a downgrade if VLC is already installed.
+as the installer will warn the user about a downgrade if VLC is already installed. That being said, at first launch, VLC will check for updates.
 * The MITM attack replaces the installer with an authenticode signed malware. This is theoretically possible, but if you don't trust certification authorities, I don't think you can trust HTTPS.
 
 You could argue (and I believe you'd be right) that the signed but tampered warning could be more extreme, but we sadly can't control that.
@@ -96,7 +96,7 @@ When it comes to the updated, it will check for the GPG signature (the public ke
 
 That makes an HTTP download completely safe as far as I can see.
 
-However there's still one attack vector that seems pertinent to me: the first install to an old & vulnerable version of VLC.
+So the only pertinent attack vector would require the user not to know which version they install (that is not unlikely), but also to refuse update checks, or the update offer that will pop on first launch if they do accept the check.
 
 Now keep in mind that due to the mirrors not being ours, we still can't enforce HTTPS. However we could rely on another mechanism. I strongly encourage you to vote for this (very old)
 suggestion on Mozilla's bugtracker: 
@@ -105,6 +105,10 @@ suggestion on Mozilla's bugtracker:
 
 This would allow us to provide our checksums (which is ultimately the best way of ensuring that a user downloads the correct version, HTTP or HTTPS, provided that the checksums gets
 distributed over a secure connection). We can't expect a user to know about checksums (some do, and that is great, but most don't). We can, however, expect software they use to do so.
+
+There is also an obvious thing we can all do, and that is to educate users about the importance of updating. We also have to do our share to ensure there aren't too drastic regressions from a version to another.
+
+I believe VideoLAN is working hard on those matter.
 
 Hopefully that sheds a bit more light on the situation, and will help move away from the "No HTTPS means total unsecurity" point of view. I agree that in a perfect world, 
 we'd deploy our own servers worldwide, would enable HTTPS for all, but we can't.
