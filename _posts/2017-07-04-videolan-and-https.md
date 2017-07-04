@@ -15,7 +15,7 @@ this is just how I understand things, and why I believe the answer to the everla
 
 The base statement is "if you don't enable HTTPS anyone can Man In The Middle attack your connection and replace your VLC install with a malware". The first part is true, the 2nd is much more complicated.
 
-I kind of feel obligated to comment on the bug report part about the lack of HTTPS being how the [NSA used VLC to take control of computers](https://wikileaks.org/ciav7p1/cms/files/Rain%20Maker%20v1.0%20User%20Guide.doc)
+I kind of feel obligated to comment on the bug report part about the lack of HTTPS being how the [CIA used VLC to take control of computers](https://wikileaks.org/ciav7p1/cms/files/Rain%20Maker%20v1.0%20User%20Guide.doc)
 . The answer here is much simpler: this is false.
 
 They used the application manifest to force a malicious DLL to be loaded instead of the system provided ones. The VLC installation was provided on a USB key, and to be honest this is
