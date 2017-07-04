@@ -129,5 +129,6 @@ that when you download VLC, you only want a media player, with no strings attach
 not to do this to anyone.
 * Implying that we don't care about opressive regimes spying on their citizens in order to torture and oppress them is low, hurtful, false, and quite disgusting of an argument to make.
 * If you use homosexuality in order to insult/make fun of someone, it is homophobic. You might disagree, but that's irrelevent. It is.
+* Calling members of the projet on their personnal phones and insulting them is probably a bit of an overreaction, don't you think?
 * Just be nice to each other, let's learn from each other, and let's make the web & software safer. Yes that is cheesy, but if that isn't what you want, you probably don't belong around open source community.
 
