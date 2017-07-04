@@ -26,4 +26,7 @@ You can contact me through:
 - IRL in Paris or maybe at a conference, somewhere!
 
 Should you want to contact me securely, my GPG fingerprint is
+
 [9477 E0D3 1426 892D 2361  9994 DF84 80A4 E3CF 72EB](http://pgp.mit.edu/pks/lookup?op=vindex&search=0xDF8480A4E3CF72EB)
+
+And I do realize it's been displayed over a non-secure connection, but feel free to search for my name on the keyserver :)
