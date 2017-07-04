@@ -98,6 +98,9 @@ That makes an HTTP download completely safe as far as I can see.
 
 So the only pertinent attack vector would require the user not to know which version they install (that is not unlikely), but also to refuse update checks, or the update offer that will pop on first launch if they do accept the check.
 
+I will emphasize that we do *not* require the user to explicitely check the GPG signature nor the Authenticode/Gatekeeper signature. The updater/installer will do it for them.
+
+However as described earlier, there is still a small attack vector left, between the first install and the second launch, and we need to address this at some point.
 Now keep in mind that due to the mirrors not being ours, we still can't enforce HTTPS. However we could rely on another mechanism. I strongly encourage you to vote for this (very old)
 suggestion on Mozilla's bugtracker: 
 
