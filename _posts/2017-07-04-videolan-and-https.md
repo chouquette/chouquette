@@ -7,11 +7,11 @@ tags:
 
 A few days ago, the good old "VideoLAN must use HTTPS" topic came back, in the form of a [bug report](https://trac.videolan.org/vlc/ticket/18472). However this time, 
 discussion heated up way above proportions on twitter, so I'd like to take a step back and
-address what's the status (or rather, my own view on the status) are.
+address what's the status (or rather, my own view on the status) is.
 
 Speaking of views, this post is about my view and understanding of the topic, and mine only. This is not a VideoLAN statement,
 this is just how I understand things, and why I believe the answer to the everlasting question
-"Should VideoLAN enforce HTTPS for all there downloads" is the most common answer in IT: "It depends."
+"Should VideoLAN enforce HTTPS for all their downloads" is the most common answer in IT: "It depends."
 
 The base statement is "if you don't enable HTTPS anyone can Man In The Middle attack your connection and replace your VLC install with a malware". The first part is true, the 2nd is much more complicated.
 
@@ -25,14 +25,14 @@ In short, we mitigated this attack vector by:
 * Embedding the manifest in the application
 * Refusing to load any DLLs from the application directory
 
-The first part is interesting, because now the manifest is part of the final executable, meaning one needs to modify the binary to change it, and this is important, as you'll below.
+The first part is interesting, because now the manifest is part of the final executable, meaning one needs to modify the binary to change it, and this is important, as you'll see below.
 
-But let's back on the HTTPS topic
+But let's go back to the HTTPS topic
 
 It is indeed true that using HTTP is insecure. I don't think anyone argues on that part. You're sending stuff for the whole world to see, and potentially intercept and edit.
 
 It is also true that our frontpage doesn't enforce HTTPS by default, and that Google doesn't redirect you to the HTTPS page. We are investigating the later, the former is complicated due to old
-browsers, which we still have to support (you'd be surprise how many Windows XP users we still have)
+browsers, which we still have to support (you'd be surprised how many Windows XP users we still have)
 
 However claiming that videolan.org doesn't support HTTPS would be [wrong](https://www.videolan.org)
 
