@@ -25,7 +25,7 @@ In short, we mitigated this attack vector by:
 * Embedding the manifest in the application
 * Refusing to load any DLLs from the application directory
 
-The first part is interesting, because now the manifest is part of the final executable, meaning one needs to modify the the binary to change it, and this is important, as you'll below.
+The first part is interesting, because now the manifest is part of the final executable, meaning one needs to modify the binary to change it, and this is important, as you'll below.
 
 But let's back on the HTTPS topic
 
@@ -44,7 +44,7 @@ VideoLAN relies on [mirrors](https://get.videolan.org/vlc/2.2.6/win32/vlc-2.2.6-
 to allow us to handle the [bandwidth required](https://get.videolan.org/?mirrorstats) to distribute VLC. There is no way we could do that with our own infrastructure, based on donations only.
 Those mirrors are gracefully provided to us for free by some companies (and we are very grateful to them!), but we do not own the machines, nor are we in a position to make any kind of demands to them.
 
-Some people suggested that we use Cloudfare, but that is not an option, as they are US based, and must therefore comply with US laws, which has a different view on software pattents
+Some people suggested that we use Cloudfare, but that is not an option, as they are US based, and must therefore comply with US laws, which has a different view on software patents
 than Europe. If we were to switch to Cloudfare, and they were required to stop hosting us, we'd have no way to provide VLC to our users, and no mirror infrastructure left. This is not an option.
 Oh and the hypothesis of having a mirror shutting down because of legal heat is not an hypothesis, it already happened.
 
@@ -125,10 +125,10 @@ A few closing remarks, in no particular order, from what I read today:
 * I don't claim to know better, this is my understanding (which I believe to be accurate), but I am not a security specialist, and I don't claim to be better than anyone. If you
 feel that I missed something or want to discuss it, I'll gladly engage. However, if the summary would be "You don't know shit, let me explain", well, get lost.
 * Claiming that we are wilfully allowing our binaries to be tampered with is outrageously wrong, and actually quite hurtful. We refused countless offers to monetize VLC because we believe
-that when you download VLC, you only want a media player, with no strings attached, no tracking, no add, and no malware. I've spent enough time removing crap from my relatives' computer
+that when you download VLC, you only want a media player, with no strings attached, no tracking, no ad, and no malware. I've spent enough time removing crap from my relatives' computer
 not to do this to anyone.
 * Implying that we don't care about opressive regimes spying on their citizens in order to torture and oppress them is low, hurtful, false, and quite disgusting of an argument to make.
-* If you use homosexuality in order to insult/make fun of someone, it is homophobic. You might disagree, but that's irrelevent. It is.
+* If you use homosexuality in order to insult/make fun of someone, it is homophobic. You might disagree, but that's irrelevant. It is.
 * Calling members of the projet on their personnal phones and insulting them is probably a bit of an overreaction, don't you think?
 * Just be nice to each other, let's learn from each other, and let's make the web & software safer. Yes that is cheesy, but if that isn't what you want, you probably don't belong around open source community.
 
