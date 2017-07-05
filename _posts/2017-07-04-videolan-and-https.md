@@ -63,7 +63,7 @@ This is why we chose to focus our security measures on the binaries being downlo
 
 All our binaries are signed with both GPG, and our Authenticode signature on Windows, our Gatekeeper signature on macOS.
 
-For those who are not familiar with Windows/macOS, Authenticode and Gatekeeper are *basically* the operating system provided way of checking the authenticity & sanity of a binary.
+For those who are not familiar with Windows/macOS, Authenticode and Gatekeeper are *basically* the operating system provided way of checking the authenticity & integrity of a binary.
 
 From there, multiple configurations are possible:
 
