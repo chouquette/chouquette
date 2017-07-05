@@ -119,7 +119,7 @@ Hopefully that sheds a bit more light on the situation, and will help move away 
 we'd deploy our own servers worldwide, would enable HTTPS for all, but we can't.
 
 Someone said today that "Google moved to HTTPS only at no impact to their capacity". I'll glady point you to the fact that Google is not a non-profit, and that the amount of money they make
-in a day is an order of magnitude (hello euphemism!) higher than the amount of money we ever received from donations. Ever.
+in a day is an order of magnitude (hello understatement!) higher than the amount of money we ever received from donations. Ever.
 
 A few closing remarks, in no particular order, from what I read today:
 * I don't claim to know better, this is my understanding (which I believe to be accurate), but I am not a security specialist, and I don't claim to be better than anyone. If you
